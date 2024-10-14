@@ -1,0 +1,3 @@
+C:/Users/Toktarla/StudioProjects/native_with_flutter/android/app/.cxx/RelWithDebInfo/5j3w2m3f/arm64-v8a/CMakeFiles/image_processing.dir
+C:/Users/Toktarla/StudioProjects/native_with_flutter/android/app/.cxx/RelWithDebInfo/5j3w2m3f/arm64-v8a/CMakeFiles/edit_cache.dir
+C:/Users/Toktarla/StudioProjects/native_with_flutter/android/app/.cxx/RelWithDebInfo/5j3w2m3f/arm64-v8a/CMakeFiles/rebuild_cache.dir

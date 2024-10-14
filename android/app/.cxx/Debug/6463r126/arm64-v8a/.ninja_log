@@ -1,0 +1,13 @@
+# ninja log v5
+1	2563	7506300104154315	CMakeFiles/image_processing.dir/image_processing.cpp.o	6e46f84e9c0a141c
+2568	3130	7506300109284302	C:/Users/Toktarla/StudioProjects/native_with_flutter/build/app/intermediates/cxx/Debug/6463r126/obj/arm64-v8a/libimage_processing.so	9a5b24d533bdca3a
+5	1900	7506302925697742	CMakeFiles/image_processing.dir/image_processing.cpp.o	6e46f84e9c0a141c
+1901	2463	7506302930778716	C:/Users/Toktarla/StudioProjects/native_with_flutter/build/app/intermediates/cxx/Debug/6463r126/obj/arm64-v8a/libimage_processing.so	9a5b24d533bdca3a
+5	1915	7506305348022425	CMakeFiles/image_processing.dir/image_processing.cpp.o	6e46f84e9c0a141c
+1916	2512	7506305353430639	C:/Users/Toktarla/StudioProjects/native_with_flutter/build/app/intermediates/cxx/Debug/6463r126/obj/arm64-v8a/libimage_processing.so	9a5b24d533bdca3a
+4	1896	7506311847170017	CMakeFiles/image_processing.dir/image_processing.cpp.o	6e46f84e9c0a141c
+1896	2279	7506311850547802	C:/Users/Toktarla/StudioProjects/native_with_flutter/build/app/intermediates/cxx/Debug/6463r126/obj/arm64-v8a/libimage_processing.so	9a5b24d533bdca3a
+4	2699	7506396621399402	CMakeFiles/image_processing.dir/image_processing.cpp.o	6e46f84e9c0a141c
+2700	3208	7506396626029794	C:/Users/Toktarla/StudioProjects/native_with_flutter/build/app/intermediates/cxx/Debug/6463r126/obj/arm64-v8a/libimage_processing.so	9a5b24d533bdca3a
+6	1942	7506402797999582	CMakeFiles/image_processing.dir/image_processing.cpp.o	6e46f84e9c0a141c
+1943	2333	7506402801360323	C:/Users/Toktarla/StudioProjects/native_with_flutter/build/app/intermediates/cxx/Debug/6463r126/obj/arm64-v8a/libimage_processing.so	9a5b24d533bdca3a

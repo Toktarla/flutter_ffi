@@ -1,0 +1,471 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/Toktarla/AppData/Local/Android/Sdk/cmake/3.30.5/share/cmake-3.30/Modules/CMakeDetermineSystem.cmake:200 (message)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      The target system is: Android - 21 - aarch64
+      The host system is: Windows - 10.0.19045 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/Toktarla/AppData/Local/Android/Sdk/cmake/3.30.5/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Users/Toktarla/AppData/Local/Android/Sdk/cmake/3.30.5/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/Toktarla/AppData/Local/Android/Sdk/cmake/3.30.5/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: C:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe 
+      Build flags: 
+      Id flags: -c;--target=aarch64-none-linux-android21 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+      
+      The C compiler identification is Clang, found in:
+        C:/Users/Toktarla/StudioProjects/native_with_flutter/android/app/.cxx/RelWithDebInfo/5j3w2m3f/arm64-v8a/CMakeFiles/3.30.5/CompilerIdC/CMakeCCompilerId.o
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/Toktarla/AppData/Local/Android/Sdk/cmake/3.30.5/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Users/Toktarla/AppData/Local/Android/Sdk/cmake/3.30.5/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/Toktarla/AppData/Local/Android/Sdk/cmake/3.30.5/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: C:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe 
+      Build flags: 
+      Id flags: -c;--target=aarch64-none-linux-android21 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+      
+      The CXX compiler identification is Clang, found in:
+        C:/Users/Toktarla/StudioProjects/native_with_flutter/android/app/.cxx/RelWithDebInfo/5j3w2m3f/arm64-v8a/CMakeFiles/3.30.5/CompilerIdCXX/CMakeCXXCompilerId.o
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/Toktarla/AppData/Local/Android/Sdk/cmake/3.30.5/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Users/Toktarla/AppData/Local/Android/Sdk/cmake/3.30.5/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/Toktarla/StudioProjects/native_with_flutter/android/app/.cxx/RelWithDebInfo/5j3w2m3f/arm64-v8a/CMakeFiles/CMakeScratch/TryCompile-u3bdo0"
+      binary: "C:/Users/Toktarla/StudioProjects/native_with_flutter/android/app/.cxx/RelWithDebInfo/5j3w2m3f/arm64-v8a/CMakeFiles/CMakeScratch/TryCompile-u3bdo0"
+    cmakeVariables:
+      ANDROID_ABI: "arm64-v8a"
+      ANDROID_ARM_MODE: "thumb"
+      ANDROID_ARM_NEON: "FALSE"
+      ANDROID_PLATFORM: "android-21"
+      ANDROID_TOOLCHAIN: "clang"
+      CMAKE_ANDROID_STL_TYPE: "c++_static"
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS-NOTFOUND"
+      CMAKE_CXX_COMPILER_EXTERNAL_TOOLCHAIN: ""
+      CMAKE_CXX_COMPILER_TARGET: "aarch64-none-linux-android21"
+      CMAKE_C_COMPILER_EXTERNAL_TOOLCHAIN: ""
+      CMAKE_C_COMPILER_TARGET: "aarch64-none-linux-android21"
+      CMAKE_C_FLAGS: "-DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -fexceptions"
+      CMAKE_C_FLAGS_DEBUG: "-g  -fno-limit-debug-info"
+      CMAKE_EXE_LINKER_FLAGS: "-Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--fatal-warnings -Qunused-arguments -Wl,--no-undefined  -Wl,--gc-sections"
+      CMAKE_POSITION_INDEPENDENT_CODE: "TRUE"
+      CMAKE_SYSROOT: "C:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Toktarla/StudioProjects/native_with_flutter/android/app/.cxx/RelWithDebInfo/5j3w2m3f/arm64-v8a/CMakeFiles/CMakeScratch/TryCompile-u3bdo0'
+        
+        Run Build Command(s): C:\\Users\\Toktarla\\AppData\\Local\\Android\\sdk\\cmake\\3.30.5\\bin\\ninja.exe -v cmTC_72236
+        [1/2] C:\\Users\\Toktarla\\AppData\\Local\\Android\\Sdk\\ndk\\23.1.7779620\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe --target=aarch64-none-linux-android21 --sysroot=C:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -fexceptions  -O2 -g -DNDEBUG -fPIE   -v -MD -MT CMakeFiles/cmTC_72236.dir/CMakeCCompilerABI.c.o -MF CMakeFiles\\cmTC_72236.dir\\CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_72236.dir/CMakeCCompilerABI.c.o -c C:/Users/Toktarla/AppData/Local/Android/Sdk/cmake/3.30.5/share/cmake-3.30/Modules/CMakeCCompilerABI.c
+        Android (7714059, based on r416183c1) clang version 12.0.8 (https://android.googlesource.com/toolchain/llvm-project c935d99d7cf2016289302412d708641d52d2f7ee)
+        Target: aarch64-none-linux-android21
+        Thread model: posix
+        InstalledDir: C:\\Users\\Toktarla\\AppData\\Local\\Android\\Sdk\\ndk\\23.1.7779620\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin
+        Found candidate GCC installation: C:\\Users\\Toktarla\\AppData\\Local\\Android\\Sdk\\ndk\\23.1.7779620\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin/../lib/gcc/aarch64-linux-android\\4.9.x
+        Selected GCC installation: C:\\Users\\Toktarla\\AppData\\Local\\Android\\Sdk\\ndk\\23.1.7779620\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin/../lib/gcc/aarch64-linux-android/4.9.x
+        Candidate multilib: .;@m64
+        Selected multilib: .;@m64
+         (in-process)
+         "C:\\\\Users\\\\Toktarla\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\ndk\\\\23.1.7779620\\\\toolchains\\\\llvm\\\\prebuilt\\\\windows-x86_64\\\\bin\\\\clang.exe" -cc1 -triple aarch64-none-linux-android21 -emit-obj --mrelax-relocations -mnoexecstack -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=non-leaf -fno-rounding-math -mconstructor-aliases -munwind-tables -target-cpu generic -target-feature +neon -target-abi aapcs -mllvm -aarch64-fix-cortex-a53-835769=1 -fallow-half-arguments-and-returns -fno-split-dwarf-inlining -debug-info-kind=limited -dwarf-version=4 -debugger-tuning=gdb -v -ffunction-sections -fdata-sections -resource-dir "C:\\\\Users\\\\Toktarla\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\ndk\\\\23.1.7779620\\\\toolchains\\\\llvm\\\\prebuilt\\\\windows-x86_64\\\\lib64\\\\clang\\\\12.0.8" -dependency-file "CMakeFiles\\\\cmTC_72236.dir\\\\CMakeCCompilerABI.c.o.d" -MT CMakeFiles/cmTC_72236.dir/CMakeCCompilerABI.c.o -sys-header-deps -D ANDROID -D _FORTIFY_SOURCE=2 -D NDEBUG -isysroot C:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot -internal-isystem C:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/local/include -internal-isystem "C:\\\\Users\\\\Toktarla\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\ndk\\\\23.1.7779620\\\\toolchains\\\\llvm\\\\prebuilt\\\\windows-x86_64\\\\lib64\\\\clang\\\\12.0.8\\\\include" -internal-externc-isystem C:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/aarch64-linux-android -internal-externc-isystem C:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot/include -internal-externc-isystem C:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include -O2 -Wformat -fdebug-compilation-dir "C:\\\\Users\\\\Toktarla\\\\StudioProjects\\\\native_with_flutter\\\\android\\\\app\\\\.cxx\\\\RelWithDebInfo\\\\5j3w2m3f\\\\arm64-v8a\\\\CMakeFiles\\\\CMakeScratch\\\\TryCompile-u3bdo0" -ferror-limit 19 -stack-protector 2 -fno-signed-char -fgnuc-version=4.2.1 -fexceptions -vectorize-loops -vectorize-slp -o CMakeFiles/cmTC_72236.dir/CMakeCCompilerABI.c.o -x c C:/Users/Toktarla/AppData/Local/Android/Sdk/cmake/3.30.5/share/cmake-3.30/Modules/CMakeCCompilerABI.c
+        clang -cc1 version 12.0.8 based upon LLVM 12.0.8git default target x86_64-w64-windows-gnu
+        ignoring nonexistent directory "C:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         C:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/local/include
+         C:\\Users\\Toktarla\\AppData\\Local\\Android\\Sdk\\ndk\\23.1.7779620\\toolchains\\llvm\\prebuilt\\windows-x86_64\\lib64\\clang\\12.0.8\\include
+         C:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/aarch64-linux-android
+         C:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include
+        End of search list.
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Users\\Toktarla\\AppData\\Local\\Android\\Sdk\\ndk\\23.1.7779620\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe --target=aarch64-none-linux-android21 --sysroot=C:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -fexceptions  -O2 -g -DNDEBUG -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--fatal-warnings -Qunused-arguments -Wl,--no-undefined  -Wl,--gc-sections -v CMakeFiles/cmTC_72236.dir/CMakeCCompilerABI.c.o -o cmTC_72236  -latomic -lm && cd ."
+        Android (7714059, based on r416183c1) clang version 12.0.8 (https://android.googlesource.com/toolchain/llvm-project c935d99d7cf2016289302412d708641d52d2f7ee)
+        Target: aarch64-none-linux-android21
+        Thread model: posix
+        InstalledDir: C:\\Users\\Toktarla\\AppData\\Local\\Android\\Sdk\\ndk\\23.1.7779620\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin
+        Found candidate GCC installation: C:\\Users\\Toktarla\\AppData\\Local\\Android\\Sdk\\ndk\\23.1.7779620\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin/../lib/gcc/aarch64-linux-android\\4.9.x
+        Selected GCC installation: C:\\Users\\Toktarla\\AppData\\Local\\Android\\Sdk\\ndk\\23.1.7779620\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin/../lib/gcc/aarch64-linux-android/4.9.x
+        Candidate multilib: .;@m64
+        Selected multilib: .;@m64
+         "C:\\\\Users\\\\Toktarla\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\ndk\\\\23.1.7779620\\\\toolchains\\\\llvm\\\\prebuilt\\\\windows-x86_64\\\\bin\\\\ld" --sysroot=C:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot -pie -z noexecstack -EL --fix-cortex-a53-843419 --warn-shared-textrel -z now -z relro -z max-page-size=4096 --hash-style=both --enable-new-dtags --eh-frame-hdr -m aarch64linux -dynamic-linker /system/bin/linker64 -o cmTC_72236 "C:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/21\\\\crtbegin_dynamic.o" "-LC:\\\\Users\\\\Toktarla\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\ndk\\\\23.1.7779620\\\\toolchains\\\\llvm\\\\prebuilt\\\\windows-x86_64\\\\lib64\\\\clang\\\\12.0.8\\\\lib\\\\linux\\\\aarch64" "-LC:\\\\Users\\\\Toktarla\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\ndk\\\\23.1.7779620\\\\toolchains\\\\llvm\\\\prebuilt\\\\windows-x86_64\\\\bin/../lib/gcc/aarch64-linux-android/4.9.x" -LC:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/21 -LC:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android -LC:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib --build-id=sha1 --no-rosegment --fatal-warnings --no-undefined --gc-sections CMakeFiles/cmTC_72236.dir/CMakeCCompilerABI.c.o -latomic -lm "C:\\\\Users\\\\Toktarla\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\ndk\\\\23.1.7779620\\\\toolchains\\\\llvm\\\\prebuilt\\\\windows-x86_64\\\\lib64\\\\clang\\\\12.0.8\\\\lib\\\\linux\\\\libclang_rt.builtins-aarch64-android.a" -l:libunwind.a -ldl -lc "C:\\\\Users\\\\Toktarla\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\ndk\\\\23.1.7779620\\\\toolchains\\\\llvm\\\\prebuilt\\\\windows-x86_64\\\\lib64\\\\clang\\\\12.0.8\\\\lib\\\\linux\\\\libclang_rt.builtins-aarch64-android.a" -l:libunwind.a -ldl "C:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/21\\\\crtend_android.o"
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/Toktarla/AppData/Local/Android/Sdk/cmake/3.30.5/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:182 (message)"
+      - "C:/Users/Toktarla/AppData/Local/Android/Sdk/cmake/3.30.5/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [C:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/local/include]
+          add: [C:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/12.0.8/include]
+          add: [C:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/aarch64-linux-android]
+          add: [C:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include]
+        end of search list found
+        collapse include dir [C:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/local/include] ==> [C:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/local/include]
+        collapse include dir [C:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/12.0.8/include] ==> [C:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/12.0.8/include]
+        collapse include dir [C:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/aarch64-linux-android] ==> [C:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/aarch64-linux-android]
+        collapse include dir [C:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include] ==> [C:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include]
+        implicit include dirs: [C:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/local/include;C:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/12.0.8/include;C:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/aarch64-linux-android;C:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/Toktarla/AppData/Local/Android/Sdk/cmake/3.30.5/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "C:/Users/Toktarla/AppData/Local/Android/Sdk/cmake/3.30.5/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: 'C:/Users/Toktarla/StudioProjects/native_with_flutter/android/app/.cxx/RelWithDebInfo/5j3w2m3f/arm64-v8a/CMakeFiles/CMakeScratch/TryCompile-u3bdo0']
+        ignore line: []
+        ignore line: [Run Build Command(s): C:\\Users\\Toktarla\\AppData\\Local\\Android\\sdk\\cmake\\3.30.5\\bin\\ninja.exe -v cmTC_72236]
+        ignore line: [[1/2] C:\\Users\\Toktarla\\AppData\\Local\\Android\\Sdk\\ndk\\23.1.7779620\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe --target=aarch64-none-linux-android21 --sysroot=C:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -fexceptions  -O2 -g -DNDEBUG -fPIE   -v -MD -MT CMakeFiles/cmTC_72236.dir/CMakeCCompilerABI.c.o -MF CMakeFiles\\cmTC_72236.dir\\CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_72236.dir/CMakeCCompilerABI.c.o -c C:/Users/Toktarla/AppData/Local/Android/Sdk/cmake/3.30.5/share/cmake-3.30/Modules/CMakeCCompilerABI.c]
+        ignore line: [Android (7714059  based on r416183c1) clang version 12.0.8 (https://android.googlesource.com/toolchain/llvm-project c935d99d7cf2016289302412d708641d52d2f7ee)]
+        ignore line: [Target: aarch64-none-linux-android21]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: C:\\Users\\Toktarla\\AppData\\Local\\Android\\Sdk\\ndk\\23.1.7779620\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin]
+        ignore line: [Found candidate GCC installation: C:\\Users\\Toktarla\\AppData\\Local\\Android\\Sdk\\ndk\\23.1.7779620\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin/../lib/gcc/aarch64-linux-android\\4.9.x]
+        ignore line: [Selected GCC installation: C:\\Users\\Toktarla\\AppData\\Local\\Android\\Sdk\\ndk\\23.1.7779620\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin/../lib/gcc/aarch64-linux-android/4.9.x]
+        ignore line: [Candidate multilib: .]
+        ignore line: [@m64]
+        ignore line: [Selected multilib: .]
+        ignore line: [@m64]
+        ignore line: [ (in-process)]
+        ignore line: [ "C:\\\\Users\\\\Toktarla\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\ndk\\\\23.1.7779620\\\\toolchains\\\\llvm\\\\prebuilt\\\\windows-x86_64\\\\bin\\\\clang.exe" -cc1 -triple aarch64-none-linux-android21 -emit-obj --mrelax-relocations -mnoexecstack -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=non-leaf -fno-rounding-math -mconstructor-aliases -munwind-tables -target-cpu generic -target-feature +neon -target-abi aapcs -mllvm -aarch64-fix-cortex-a53-835769=1 -fallow-half-arguments-and-returns -fno-split-dwarf-inlining -debug-info-kind=limited -dwarf-version=4 -debugger-tuning=gdb -v -ffunction-sections -fdata-sections -resource-dir "C:\\\\Users\\\\Toktarla\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\ndk\\\\23.1.7779620\\\\toolchains\\\\llvm\\\\prebuilt\\\\windows-x86_64\\\\lib64\\\\clang\\\\12.0.8" -dependency-file "CMakeFiles\\\\cmTC_72236.dir\\\\CMakeCCompilerABI.c.o.d" -MT CMakeFiles/cmTC_72236.dir/CMakeCCompilerABI.c.o -sys-header-deps -D ANDROID -D _FORTIFY_SOURCE=2 -D NDEBUG -isysroot C:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot -internal-isystem C:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/local/include -internal-isystem "C:\\\\Users\\\\Toktarla\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\ndk\\\\23.1.7779620\\\\toolchains\\\\llvm\\\\prebuilt\\\\windows-x86_64\\\\lib64\\\\clang\\\\12.0.8\\\\include" -internal-externc-isystem C:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/aarch64-linux-android -internal-externc-isystem C:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot/include -internal-externc-isystem C:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include -O2 -Wformat -fdebug-compilation-dir "C:\\\\Users\\\\Toktarla\\\\StudioProjects\\\\native_with_flutter\\\\android\\\\app\\\\.cxx\\\\RelWithDebInfo\\\\5j3w2m3f\\\\arm64-v8a\\\\CMakeFiles\\\\CMakeScratch\\\\TryCompile-u3bdo0" -ferror-limit 19 -stack-protector 2 -fno-signed-char -fgnuc-version=4.2.1 -fexceptions -vectorize-loops -vectorize-slp -o CMakeFiles/cmTC_72236.dir/CMakeCCompilerABI.c.o -x c C:/Users/Toktarla/AppData/Local/Android/Sdk/cmake/3.30.5/share/cmake-3.30/Modules/CMakeCCompilerABI.c]
+        ignore line: [clang -cc1 version 12.0.8 based upon LLVM 12.0.8git default target x86_64-w64-windows-gnu]
+        ignore line: [ignoring nonexistent directory "C:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ C:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/local/include]
+        ignore line: [ C:\\Users\\Toktarla\\AppData\\Local\\Android\\Sdk\\ndk\\23.1.7779620\\toolchains\\llvm\\prebuilt\\windows-x86_64\\lib64\\clang\\12.0.8\\include]
+        ignore line: [ C:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/aarch64-linux-android]
+        ignore line: [ C:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include]
+        ignore line: [End of search list.]
+        ignore line: [[2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Users\\Toktarla\\AppData\\Local\\Android\\Sdk\\ndk\\23.1.7779620\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe --target=aarch64-none-linux-android21 --sysroot=C:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -fexceptions  -O2 -g -DNDEBUG -Wl --build-id=sha1 -Wl --no-rosegment -Wl --fatal-warnings -Qunused-arguments -Wl --no-undefined  -Wl --gc-sections -v CMakeFiles/cmTC_72236.dir/CMakeCCompilerABI.c.o -o cmTC_72236  -latomic -lm && cd ."]
+        ignore line: [Android (7714059  based on r416183c1) clang version 12.0.8 (https://android.googlesource.com/toolchain/llvm-project c935d99d7cf2016289302412d708641d52d2f7ee)]
+        ignore line: [Target: aarch64-none-linux-android21]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: C:\\Users\\Toktarla\\AppData\\Local\\Android\\Sdk\\ndk\\23.1.7779620\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin]
+        ignore line: [Found candidate GCC installation: C:\\Users\\Toktarla\\AppData\\Local\\Android\\Sdk\\ndk\\23.1.7779620\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin/../lib/gcc/aarch64-linux-android\\4.9.x]
+        ignore line: [Selected GCC installation: C:\\Users\\Toktarla\\AppData\\Local\\Android\\Sdk\\ndk\\23.1.7779620\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin/../lib/gcc/aarch64-linux-android/4.9.x]
+        ignore line: [Candidate multilib: .]
+        ignore line: [@m64]
+        ignore line: [Selected multilib: .]
+        ignore line: [@m64]
+        link line: [ "C:\\\\Users\\\\Toktarla\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\ndk\\\\23.1.7779620\\\\toolchains\\\\llvm\\\\prebuilt\\\\windows-x86_64\\\\bin\\\\ld" --sysroot=C:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot -pie -z noexecstack -EL --fix-cortex-a53-843419 --warn-shared-textrel -z now -z relro -z max-page-size=4096 --hash-style=both --enable-new-dtags --eh-frame-hdr -m aarch64linux -dynamic-linker /system/bin/linker64 -o cmTC_72236 "C:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/21\\\\crtbegin_dynamic.o" "-LC:\\\\Users\\\\Toktarla\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\ndk\\\\23.1.7779620\\\\toolchains\\\\llvm\\\\prebuilt\\\\windows-x86_64\\\\lib64\\\\clang\\\\12.0.8\\\\lib\\\\linux\\\\aarch64" "-LC:\\\\Users\\\\Toktarla\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\ndk\\\\23.1.7779620\\\\toolchains\\\\llvm\\\\prebuilt\\\\windows-x86_64\\\\bin/../lib/gcc/aarch64-linux-android/4.9.x" -LC:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/21 -LC:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android -LC:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib --build-id=sha1 --no-rosegment --fatal-warnings --no-undefined --gc-sections CMakeFiles/cmTC_72236.dir/CMakeCCompilerABI.c.o -latomic -lm "C:\\\\Users\\\\Toktarla\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\ndk\\\\23.1.7779620\\\\toolchains\\\\llvm\\\\prebuilt\\\\windows-x86_64\\\\lib64\\\\clang\\\\12.0.8\\\\lib\\\\linux\\\\libclang_rt.builtins-aarch64-android.a" -l:libunwind.a -ldl -lc "C:\\\\Users\\\\Toktarla\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\ndk\\\\23.1.7779620\\\\toolchains\\\\llvm\\\\prebuilt\\\\windows-x86_64\\\\lib64\\\\clang\\\\12.0.8\\\\lib\\\\linux\\\\libclang_rt.builtins-aarch64-android.a" -l:libunwind.a -ldl "C:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/21\\\\crtend_android.o"]
+          arg [C:\\\\Users\\\\Toktarla\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\ndk\\\\23.1.7779620\\\\toolchains\\\\llvm\\\\prebuilt\\\\windows-x86_64\\\\bin\\\\ld] ==> ignore
+          arg [--sysroot=C:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-znoexecstack] ==> ignore
+          arg [-EL] ==> ignore
+          arg [--fix-cortex-a53-843419] ==> ignore
+          arg [--warn-shared-textrel] ==> ignore
+          arg [-znow] ==> ignore
+          arg [-zrelro] ==> ignore
+          arg [-zmax-page-size=4096] ==> ignore
+          arg [--hash-style=both] ==> ignore
+          arg [--enable-new-dtags] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [aarch64linux] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/system/bin/linker64] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_72236] ==> ignore
+          arg [C:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/21\\\\crtbegin_dynamic.o] ==> obj [C:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/21\\\\crtbegin_dynamic.o]
+          arg [-LC:\\\\Users\\\\Toktarla\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\ndk\\\\23.1.7779620\\\\toolchains\\\\llvm\\\\prebuilt\\\\windows-x86_64\\\\lib64\\\\clang\\\\12.0.8\\\\lib\\\\linux\\\\aarch64] ==> dir [C:\\\\Users\\\\Toktarla\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\ndk\\\\23.1.7779620\\\\toolchains\\\\llvm\\\\prebuilt\\\\windows-x86_64\\\\lib64\\\\clang\\\\12.0.8\\\\lib\\\\linux\\\\aarch64]
+          arg [-LC:\\\\Users\\\\Toktarla\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\ndk\\\\23.1.7779620\\\\toolchains\\\\llvm\\\\prebuilt\\\\windows-x86_64\\\\bin/../lib/gcc/aarch64-linux-android/4.9.x] ==> dir [C:\\\\Users\\\\Toktarla\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\ndk\\\\23.1.7779620\\\\toolchains\\\\llvm\\\\prebuilt\\\\windows-x86_64\\\\bin/../lib/gcc/aarch64-linux-android/4.9.x]
+          arg [-LC:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/21] ==> dir [C:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/21]
+          arg [-LC:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android] ==> dir [C:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android]
+          arg [-LC:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib] ==> dir [C:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib]
+          arg [--build-id=sha1] ==> ignore
+          arg [--no-rosegment] ==> ignore
+          arg [--fatal-warnings] ==> ignore
+          arg [--no-undefined] ==> ignore
+          arg [--gc-sections] ==> ignore
+          arg [CMakeFiles/cmTC_72236.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [-latomic] ==> lib [atomic]
+          arg [-lm] ==> lib [m]
+          arg [C:\\\\Users\\\\Toktarla\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\ndk\\\\23.1.7779620\\\\toolchains\\\\llvm\\\\prebuilt\\\\windows-x86_64\\\\lib64\\\\clang\\\\12.0.8\\\\lib\\\\linux\\\\libclang_rt.builtins-aarch64-android.a] ==> lib [C:\\\\Users\\\\Toktarla\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\ndk\\\\23.1.7779620\\\\toolchains\\\\llvm\\\\prebuilt\\\\windows-x86_64\\\\lib64\\\\clang\\\\12.0.8\\\\lib\\\\linux\\\\libclang_rt.builtins-aarch64-android.a]
+          arg [-l:libunwind.a] ==> lib [-l:libunwind.a]
+          arg [-ldl] ==> lib [dl]
+          arg [-lc] ==> lib [c]
+          arg [C:\\\\Users\\\\Toktarla\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\ndk\\\\23.1.7779620\\\\toolchains\\\\llvm\\\\prebuilt\\\\windows-x86_64\\\\lib64\\\\clang\\\\12.0.8\\\\lib\\\\linux\\\\libclang_rt.builtins-aarch64-android.a] ==> lib [C:\\\\Users\\\\Toktarla\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\ndk\\\\23.1.7779620\\\\toolchains\\\\llvm\\\\prebuilt\\\\windows-x86_64\\\\lib64\\\\clang\\\\12.0.8\\\\lib\\\\linux\\\\libclang_rt.builtins-aarch64-android.a]
+          arg [-l:libunwind.a] ==> lib [-l:libunwind.a]
+          arg [-ldl] ==> lib [dl]
+          arg [C:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/21\\\\crtend_android.o] ==> obj [C:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/21\\\\crtend_android.o]
+        linker tool for 'C': C:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/bin/ld
+        remove lib [C:\\\\Users\\\\Toktarla\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\ndk\\\\23.1.7779620\\\\toolchains\\\\llvm\\\\prebuilt\\\\windows-x86_64\\\\lib64\\\\clang\\\\12.0.8\\\\lib\\\\linux\\\\libclang_rt.builtins-aarch64-android.a]
+        remove lib [C:\\\\Users\\\\Toktarla\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\ndk\\\\23.1.7779620\\\\toolchains\\\\llvm\\\\prebuilt\\\\windows-x86_64\\\\lib64\\\\clang\\\\12.0.8\\\\lib\\\\linux\\\\libclang_rt.builtins-aarch64-android.a]
+        collapse obj [C:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/21\\\\crtbegin_dynamic.o] ==> [C:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/21/crtbegin_dynamic.o]
+        collapse obj [C:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/21\\\\crtend_android.o] ==> [C:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/21/crtend_android.o]
+        collapse library dir [C:\\\\Users\\\\Toktarla\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\ndk\\\\23.1.7779620\\\\toolchains\\\\llvm\\\\prebuilt\\\\windows-x86_64\\\\lib64\\\\clang\\\\12.0.8\\\\lib\\\\linux\\\\aarch64] ==> [C:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/12.0.8/lib/linux/aarch64]
+        collapse library dir [C:\\\\Users\\\\Toktarla\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\ndk\\\\23.1.7779620\\\\toolchains\\\\llvm\\\\prebuilt\\\\windows-x86_64\\\\bin/../lib/gcc/aarch64-linux-android/4.9.x] ==> [C:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/aarch64-linux-android/4.9.x]
+        collapse library dir [C:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/21] ==> [C:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/21]
+        collapse library dir [C:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android] ==> [C:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android]
+        collapse library dir [C:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib] ==> [C:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib]
+        implicit libs: [atomic;m;-l:libunwind.a;dl;c;-l:libunwind.a;dl]
+        implicit objs: [C:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/21/crtbegin_dynamic.o;C:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/21/crtend_android.o]
+        implicit dirs: [C:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/12.0.8/lib/linux/aarch64;C:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/aarch64-linux-android/4.9.x;C:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/21;C:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android;C:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/Toktarla/AppData/Local/Android/Sdk/cmake/3.30.5/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Users/Toktarla/AppData/Local/Android/Sdk/cmake/3.30.5/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "C:/Users/Toktarla/AppData/Local/Android/Sdk/cmake/3.30.5/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Running the C compiler's linker: "C:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/bin/ld" "-v"
+      LLD 12.0.8 (/buildbot/src/android/llvm-r416183/out/llvm-project/lld c935d99d7cf2016289302412d708641d52d2f7ee) (compatible with GNU linkers)
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Users/Toktarla/AppData/Local/Android/Sdk/cmake/3.30.5/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Users/Toktarla/AppData/Local/Android/Sdk/cmake/3.30.5/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "C:/Users/Toktarla/StudioProjects/native_with_flutter/android/app/.cxx/RelWithDebInfo/5j3w2m3f/arm64-v8a/CMakeFiles/CMakeScratch/TryCompile-0ymwpn"
+      binary: "C:/Users/Toktarla/StudioProjects/native_with_flutter/android/app/.cxx/RelWithDebInfo/5j3w2m3f/arm64-v8a/CMakeFiles/CMakeScratch/TryCompile-0ymwpn"
+    cmakeVariables:
+      ANDROID_ABI: "arm64-v8a"
+      ANDROID_ARM_MODE: "thumb"
+      ANDROID_ARM_NEON: "FALSE"
+      ANDROID_PLATFORM: "android-21"
+      ANDROID_TOOLCHAIN: "clang"
+      CMAKE_ANDROID_STL_TYPE: "c++_static"
+      CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS-NOTFOUND"
+      CMAKE_CXX_COMPILER_EXTERNAL_TOOLCHAIN: ""
+      CMAKE_CXX_COMPILER_TARGET: "aarch64-none-linux-android21"
+      CMAKE_CXX_FLAGS: "-DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -fexceptions -frtti -stdlib=libc++"
+      CMAKE_CXX_FLAGS_DEBUG: "-g  -fno-limit-debug-info"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_C_COMPILER_EXTERNAL_TOOLCHAIN: ""
+      CMAKE_C_COMPILER_TARGET: "aarch64-none-linux-android21"
+      CMAKE_EXE_LINKER_FLAGS: "-Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--fatal-warnings -Qunused-arguments -Wl,--no-undefined  -Wl,--gc-sections"
+      CMAKE_POSITION_INDEPENDENT_CODE: "TRUE"
+      CMAKE_SYSROOT: "C:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/Toktarla/StudioProjects/native_with_flutter/android/app/.cxx/RelWithDebInfo/5j3w2m3f/arm64-v8a/CMakeFiles/CMakeScratch/TryCompile-0ymwpn'
+        
+        Run Build Command(s): C:\\Users\\Toktarla\\AppData\\Local\\Android\\sdk\\cmake\\3.30.5\\bin\\ninja.exe -v cmTC_2f50b
+        [1/2] C:\\Users\\Toktarla\\AppData\\Local\\Android\\Sdk\\ndk\\23.1.7779620\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android21 --sysroot=C:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -fexceptions -frtti -stdlib=libc++  -O2 -g -DNDEBUG -fPIE   -v -MD -MT CMakeFiles/cmTC_2f50b.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles\\cmTC_2f50b.dir\\CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_2f50b.dir/CMakeCXXCompilerABI.cpp.o -c C:/Users/Toktarla/AppData/Local/Android/Sdk/cmake/3.30.5/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp
+        Android (7714059, based on r416183c1) clang version 12.0.8 (https://android.googlesource.com/toolchain/llvm-project c935d99d7cf2016289302412d708641d52d2f7ee)
+        Target: aarch64-none-linux-android21
+        Thread model: posix
+        InstalledDir: C:\\Users\\Toktarla\\AppData\\Local\\Android\\Sdk\\ndk\\23.1.7779620\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin
+        Found candidate GCC installation: C:\\Users\\Toktarla\\AppData\\Local\\Android\\Sdk\\ndk\\23.1.7779620\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin/../lib/gcc/aarch64-linux-android\\4.9.x
+        Selected GCC installation: C:\\Users\\Toktarla\\AppData\\Local\\Android\\Sdk\\ndk\\23.1.7779620\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin/../lib/gcc/aarch64-linux-android/4.9.x
+        Candidate multilib: .;@m64
+        Selected multilib: .;@m64
+         (in-process)
+         "C:\\\\Users\\\\Toktarla\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\ndk\\\\23.1.7779620\\\\toolchains\\\\llvm\\\\prebuilt\\\\windows-x86_64\\\\bin\\\\clang++.exe" -cc1 -triple aarch64-none-linux-android21 -emit-obj --mrelax-relocations -mnoexecstack -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=non-leaf -fno-rounding-math -mconstructor-aliases -munwind-tables -target-cpu generic -target-feature +neon -target-abi aapcs -mllvm -aarch64-fix-cortex-a53-835769=1 -fallow-half-arguments-and-returns -fno-split-dwarf-inlining -debug-info-kind=limited -dwarf-version=4 -debugger-tuning=gdb -v -ffunction-sections -fdata-sections -resource-dir "C:\\\\Users\\\\Toktarla\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\ndk\\\\23.1.7779620\\\\toolchains\\\\llvm\\\\prebuilt\\\\windows-x86_64\\\\lib64\\\\clang\\\\12.0.8" -dependency-file "CMakeFiles\\\\cmTC_2f50b.dir\\\\CMakeCXXCompilerABI.cpp.o.d" -MT CMakeFiles/cmTC_2f50b.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -D ANDROID -D _FORTIFY_SOURCE=2 -D NDEBUG -isysroot C:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot -internal-isystem C:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/c++/v1 -internal-isystem C:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/local/include -internal-isystem "C:\\\\Users\\\\Toktarla\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\ndk\\\\23.1.7779620\\\\toolchains\\\\llvm\\\\prebuilt\\\\windows-x86_64\\\\lib64\\\\clang\\\\12.0.8\\\\include" -internal-externc-isystem C:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/aarch64-linux-android -internal-externc-isystem C:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot/include -internal-externc-isystem C:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include -O2 -Wformat -fdeprecated-macro -fdebug-compilation-dir "C:\\\\Users\\\\Toktarla\\\\StudioProjects\\\\native_with_flutter\\\\android\\\\app\\\\.cxx\\\\RelWithDebInfo\\\\5j3w2m3f\\\\arm64-v8a\\\\CMakeFiles\\\\CMakeScratch\\\\TryCompile-0ymwpn" -ferror-limit 19 -stack-protector 2 -fno-signed-char -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -vectorize-loops -vectorize-slp -o CMakeFiles/cmTC_2f50b.dir/CMakeCXXCompilerABI.cpp.o -x c++ C:/Users/Toktarla/AppData/Local/Android/Sdk/cmake/3.30.5/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp
+        clang -cc1 version 12.0.8 based upon LLVM 12.0.8git default target x86_64-w64-windows-gnu
+        ignoring nonexistent directory "C:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         C:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/c++/v1
+         C:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/local/include
+         C:\\Users\\Toktarla\\AppData\\Local\\Android\\Sdk\\ndk\\23.1.7779620\\toolchains\\llvm\\prebuilt\\windows-x86_64\\lib64\\clang\\12.0.8\\include
+         C:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/aarch64-linux-android
+         C:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include
+        End of search list.
+        [2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Users\\Toktarla\\AppData\\Local\\Android\\Sdk\\ndk\\23.1.7779620\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android21 --sysroot=C:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -fexceptions -frtti -stdlib=libc++  -O2 -g -DNDEBUG -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--fatal-warnings -Qunused-arguments -Wl,--no-undefined  -Wl,--gc-sections -v CMakeFiles/cmTC_2f50b.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_2f50b  -static-libstdc++ -latomic -lm && cd ."
+        Android (7714059, based on r416183c1) clang version 12.0.8 (https://android.googlesource.com/toolchain/llvm-project c935d99d7cf2016289302412d708641d52d2f7ee)
+        Target: aarch64-none-linux-android21
+        Thread model: posix
+        InstalledDir: C:\\Users\\Toktarla\\AppData\\Local\\Android\\Sdk\\ndk\\23.1.7779620\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin
+        Found candidate GCC installation: C:\\Users\\Toktarla\\AppData\\Local\\Android\\Sdk\\ndk\\23.1.7779620\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin/../lib/gcc/aarch64-linux-android\\4.9.x
+        Selected GCC installation: C:\\Users\\Toktarla\\AppData\\Local\\Android\\Sdk\\ndk\\23.1.7779620\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin/../lib/gcc/aarch64-linux-android/4.9.x
+        Candidate multilib: .;@m64
+        Selected multilib: .;@m64
+         "C:\\\\Users\\\\Toktarla\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\ndk\\\\23.1.7779620\\\\toolchains\\\\llvm\\\\prebuilt\\\\windows-x86_64\\\\bin\\\\ld" --sysroot=C:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot -pie -z noexecstack -EL --fix-cortex-a53-843419 --warn-shared-textrel -z now -z relro -z max-page-size=4096 --hash-style=both --enable-new-dtags --eh-frame-hdr -m aarch64linux -dynamic-linker /system/bin/linker64 -o cmTC_2f50b "C:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/21\\\\crtbegin_dynamic.o" "-LC:\\\\Users\\\\Toktarla\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\ndk\\\\23.1.7779620\\\\toolchains\\\\llvm\\\\prebuilt\\\\windows-x86_64\\\\lib64\\\\clang\\\\12.0.8\\\\lib\\\\linux\\\\aarch64" "-LC:\\\\Users\\\\Toktarla\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\ndk\\\\23.1.7779620\\\\toolchains\\\\llvm\\\\prebuilt\\\\windows-x86_64\\\\bin/../lib/gcc/aarch64-linux-android/4.9.x" -LC:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/21 -LC:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android -LC:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib --build-id=sha1 --no-rosegment --fatal-warnings --no-undefined --gc-sections CMakeFiles/cmTC_2f50b.dir/CMakeCXXCompilerABI.cpp.o -latomic -lm -Bstatic -lc++ -Bdynamic -lm "C:\\\\Users\\\\Toktarla\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\ndk\\\\23.1.7779620\\\\toolchains\\\\llvm\\\\prebuilt\\\\windows-x86_64\\\\lib64\\\\clang\\\\12.0.8\\\\lib\\\\linux\\\\libclang_rt.builtins-aarch64-android.a" -l:libunwind.a -ldl -lc "C:\\\\Users\\\\Toktarla\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\ndk\\\\23.1.7779620\\\\toolchains\\\\llvm\\\\prebuilt\\\\windows-x86_64\\\\lib64\\\\clang\\\\12.0.8\\\\lib\\\\linux\\\\libclang_rt.builtins-aarch64-android.a" -l:libunwind.a -ldl "C:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/21\\\\crtend_android.o"
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/Toktarla/AppData/Local/Android/Sdk/cmake/3.30.5/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:182 (message)"
+      - "C:/Users/Toktarla/AppData/Local/Android/Sdk/cmake/3.30.5/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [C:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/c++/v1]
+          add: [C:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/local/include]
+          add: [C:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/12.0.8/include]
+          add: [C:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/aarch64-linux-android]
+          add: [C:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include]
+        end of search list found
+        collapse include dir [C:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/c++/v1] ==> [C:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/c++/v1]
+        collapse include dir [C:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/local/include] ==> [C:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/local/include]
+        collapse include dir [C:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/12.0.8/include] ==> [C:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/12.0.8/include]
+        collapse include dir [C:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/aarch64-linux-android] ==> [C:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/aarch64-linux-android]
+        collapse include dir [C:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include] ==> [C:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include]
+        implicit include dirs: [C:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/c++/v1;C:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/local/include;C:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/12.0.8/include;C:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/aarch64-linux-android;C:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/Toktarla/AppData/Local/Android/Sdk/cmake/3.30.5/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "C:/Users/Toktarla/AppData/Local/Android/Sdk/cmake/3.30.5/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: 'C:/Users/Toktarla/StudioProjects/native_with_flutter/android/app/.cxx/RelWithDebInfo/5j3w2m3f/arm64-v8a/CMakeFiles/CMakeScratch/TryCompile-0ymwpn']
+        ignore line: []
+        ignore line: [Run Build Command(s): C:\\Users\\Toktarla\\AppData\\Local\\Android\\sdk\\cmake\\3.30.5\\bin\\ninja.exe -v cmTC_2f50b]
+        ignore line: [[1/2] C:\\Users\\Toktarla\\AppData\\Local\\Android\\Sdk\\ndk\\23.1.7779620\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android21 --sysroot=C:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot   -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -fexceptions -frtti -stdlib=libc++  -O2 -g -DNDEBUG -fPIE   -v -MD -MT CMakeFiles/cmTC_2f50b.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles\\cmTC_2f50b.dir\\CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_2f50b.dir/CMakeCXXCompilerABI.cpp.o -c C:/Users/Toktarla/AppData/Local/Android/Sdk/cmake/3.30.5/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Android (7714059  based on r416183c1) clang version 12.0.8 (https://android.googlesource.com/toolchain/llvm-project c935d99d7cf2016289302412d708641d52d2f7ee)]
+        ignore line: [Target: aarch64-none-linux-android21]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: C:\\Users\\Toktarla\\AppData\\Local\\Android\\Sdk\\ndk\\23.1.7779620\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin]
+        ignore line: [Found candidate GCC installation: C:\\Users\\Toktarla\\AppData\\Local\\Android\\Sdk\\ndk\\23.1.7779620\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin/../lib/gcc/aarch64-linux-android\\4.9.x]
+        ignore line: [Selected GCC installation: C:\\Users\\Toktarla\\AppData\\Local\\Android\\Sdk\\ndk\\23.1.7779620\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin/../lib/gcc/aarch64-linux-android/4.9.x]
+        ignore line: [Candidate multilib: .]
+        ignore line: [@m64]
+        ignore line: [Selected multilib: .]
+        ignore line: [@m64]
+        ignore line: [ (in-process)]
+        ignore line: [ "C:\\\\Users\\\\Toktarla\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\ndk\\\\23.1.7779620\\\\toolchains\\\\llvm\\\\prebuilt\\\\windows-x86_64\\\\bin\\\\clang++.exe" -cc1 -triple aarch64-none-linux-android21 -emit-obj --mrelax-relocations -mnoexecstack -disable-free -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=non-leaf -fno-rounding-math -mconstructor-aliases -munwind-tables -target-cpu generic -target-feature +neon -target-abi aapcs -mllvm -aarch64-fix-cortex-a53-835769=1 -fallow-half-arguments-and-returns -fno-split-dwarf-inlining -debug-info-kind=limited -dwarf-version=4 -debugger-tuning=gdb -v -ffunction-sections -fdata-sections -resource-dir "C:\\\\Users\\\\Toktarla\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\ndk\\\\23.1.7779620\\\\toolchains\\\\llvm\\\\prebuilt\\\\windows-x86_64\\\\lib64\\\\clang\\\\12.0.8" -dependency-file "CMakeFiles\\\\cmTC_2f50b.dir\\\\CMakeCXXCompilerABI.cpp.o.d" -MT CMakeFiles/cmTC_2f50b.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -D ANDROID -D _FORTIFY_SOURCE=2 -D NDEBUG -isysroot C:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot -internal-isystem C:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/c++/v1 -internal-isystem C:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/local/include -internal-isystem "C:\\\\Users\\\\Toktarla\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\ndk\\\\23.1.7779620\\\\toolchains\\\\llvm\\\\prebuilt\\\\windows-x86_64\\\\lib64\\\\clang\\\\12.0.8\\\\include" -internal-externc-isystem C:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/aarch64-linux-android -internal-externc-isystem C:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot/include -internal-externc-isystem C:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include -O2 -Wformat -fdeprecated-macro -fdebug-compilation-dir "C:\\\\Users\\\\Toktarla\\\\StudioProjects\\\\native_with_flutter\\\\android\\\\app\\\\.cxx\\\\RelWithDebInfo\\\\5j3w2m3f\\\\arm64-v8a\\\\CMakeFiles\\\\CMakeScratch\\\\TryCompile-0ymwpn" -ferror-limit 19 -stack-protector 2 -fno-signed-char -fgnuc-version=4.2.1 -fcxx-exceptions -fexceptions -vectorize-loops -vectorize-slp -o CMakeFiles/cmTC_2f50b.dir/CMakeCXXCompilerABI.cpp.o -x c++ C:/Users/Toktarla/AppData/Local/Android/Sdk/cmake/3.30.5/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [clang -cc1 version 12.0.8 based upon LLVM 12.0.8git default target x86_64-w64-windows-gnu]
+        ignore line: [ignoring nonexistent directory "C:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ C:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/c++/v1]
+        ignore line: [ C:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/local/include]
+        ignore line: [ C:\\Users\\Toktarla\\AppData\\Local\\Android\\Sdk\\ndk\\23.1.7779620\\toolchains\\llvm\\prebuilt\\windows-x86_64\\lib64\\clang\\12.0.8\\include]
+        ignore line: [ C:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include/aarch64-linux-android]
+        ignore line: [ C:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/include]
+        ignore line: [End of search list.]
+        ignore line: [[2/2] C:\\Windows\\system32\\cmd.exe /C "cd . && C:\\Users\\Toktarla\\AppData\\Local\\Android\\Sdk\\ndk\\23.1.7779620\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=aarch64-none-linux-android21 --sysroot=C:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -fexceptions -frtti -stdlib=libc++  -O2 -g -DNDEBUG -Wl --build-id=sha1 -Wl --no-rosegment -Wl --fatal-warnings -Qunused-arguments -Wl --no-undefined  -Wl --gc-sections -v CMakeFiles/cmTC_2f50b.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_2f50b  -static-libstdc++ -latomic -lm && cd ."]
+        ignore line: [Android (7714059  based on r416183c1) clang version 12.0.8 (https://android.googlesource.com/toolchain/llvm-project c935d99d7cf2016289302412d708641d52d2f7ee)]
+        ignore line: [Target: aarch64-none-linux-android21]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: C:\\Users\\Toktarla\\AppData\\Local\\Android\\Sdk\\ndk\\23.1.7779620\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin]
+        ignore line: [Found candidate GCC installation: C:\\Users\\Toktarla\\AppData\\Local\\Android\\Sdk\\ndk\\23.1.7779620\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin/../lib/gcc/aarch64-linux-android\\4.9.x]
+        ignore line: [Selected GCC installation: C:\\Users\\Toktarla\\AppData\\Local\\Android\\Sdk\\ndk\\23.1.7779620\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin/../lib/gcc/aarch64-linux-android/4.9.x]
+        ignore line: [Candidate multilib: .]
+        ignore line: [@m64]
+        ignore line: [Selected multilib: .]
+        ignore line: [@m64]
+        link line: [ "C:\\\\Users\\\\Toktarla\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\ndk\\\\23.1.7779620\\\\toolchains\\\\llvm\\\\prebuilt\\\\windows-x86_64\\\\bin\\\\ld" --sysroot=C:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot -pie -z noexecstack -EL --fix-cortex-a53-843419 --warn-shared-textrel -z now -z relro -z max-page-size=4096 --hash-style=both --enable-new-dtags --eh-frame-hdr -m aarch64linux -dynamic-linker /system/bin/linker64 -o cmTC_2f50b "C:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/21\\\\crtbegin_dynamic.o" "-LC:\\\\Users\\\\Toktarla\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\ndk\\\\23.1.7779620\\\\toolchains\\\\llvm\\\\prebuilt\\\\windows-x86_64\\\\lib64\\\\clang\\\\12.0.8\\\\lib\\\\linux\\\\aarch64" "-LC:\\\\Users\\\\Toktarla\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\ndk\\\\23.1.7779620\\\\toolchains\\\\llvm\\\\prebuilt\\\\windows-x86_64\\\\bin/../lib/gcc/aarch64-linux-android/4.9.x" -LC:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/21 -LC:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android -LC:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib --build-id=sha1 --no-rosegment --fatal-warnings --no-undefined --gc-sections CMakeFiles/cmTC_2f50b.dir/CMakeCXXCompilerABI.cpp.o -latomic -lm -Bstatic -lc++ -Bdynamic -lm "C:\\\\Users\\\\Toktarla\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\ndk\\\\23.1.7779620\\\\toolchains\\\\llvm\\\\prebuilt\\\\windows-x86_64\\\\lib64\\\\clang\\\\12.0.8\\\\lib\\\\linux\\\\libclang_rt.builtins-aarch64-android.a" -l:libunwind.a -ldl -lc "C:\\\\Users\\\\Toktarla\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\ndk\\\\23.1.7779620\\\\toolchains\\\\llvm\\\\prebuilt\\\\windows-x86_64\\\\lib64\\\\clang\\\\12.0.8\\\\lib\\\\linux\\\\libclang_rt.builtins-aarch64-android.a" -l:libunwind.a -ldl "C:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/21\\\\crtend_android.o"]
+          arg [C:\\\\Users\\\\Toktarla\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\ndk\\\\23.1.7779620\\\\toolchains\\\\llvm\\\\prebuilt\\\\windows-x86_64\\\\bin\\\\ld] ==> ignore
+          arg [--sysroot=C:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-znoexecstack] ==> ignore
+          arg [-EL] ==> ignore
+          arg [--fix-cortex-a53-843419] ==> ignore
+          arg [--warn-shared-textrel] ==> ignore
+          arg [-znow] ==> ignore
+          arg [-zrelro] ==> ignore
+          arg [-zmax-page-size=4096] ==> ignore
+          arg [--hash-style=both] ==> ignore
+          arg [--enable-new-dtags] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [aarch64linux] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/system/bin/linker64] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_2f50b] ==> ignore
+          arg [C:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/21\\\\crtbegin_dynamic.o] ==> obj [C:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/21\\\\crtbegin_dynamic.o]
+          arg [-LC:\\\\Users\\\\Toktarla\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\ndk\\\\23.1.7779620\\\\toolchains\\\\llvm\\\\prebuilt\\\\windows-x86_64\\\\lib64\\\\clang\\\\12.0.8\\\\lib\\\\linux\\\\aarch64] ==> dir [C:\\\\Users\\\\Toktarla\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\ndk\\\\23.1.7779620\\\\toolchains\\\\llvm\\\\prebuilt\\\\windows-x86_64\\\\lib64\\\\clang\\\\12.0.8\\\\lib\\\\linux\\\\aarch64]
+          arg [-LC:\\\\Users\\\\Toktarla\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\ndk\\\\23.1.7779620\\\\toolchains\\\\llvm\\\\prebuilt\\\\windows-x86_64\\\\bin/../lib/gcc/aarch64-linux-android/4.9.x] ==> dir [C:\\\\Users\\\\Toktarla\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\ndk\\\\23.1.7779620\\\\toolchains\\\\llvm\\\\prebuilt\\\\windows-x86_64\\\\bin/../lib/gcc/aarch64-linux-android/4.9.x]
+          arg [-LC:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/21] ==> dir [C:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/21]
+          arg [-LC:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android] ==> dir [C:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android]
+          arg [-LC:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib] ==> dir [C:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib]
+          arg [--build-id=sha1] ==> ignore
+          arg [--no-rosegment] ==> ignore
+          arg [--fatal-warnings] ==> ignore
+          arg [--no-undefined] ==> ignore
+          arg [--gc-sections] ==> ignore
+          arg [CMakeFiles/cmTC_2f50b.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-latomic] ==> lib [atomic]
+          arg [-lm] ==> lib [m]
+          arg [-Bstatic] ==> search static
+          arg [-lc++] ==> lib [c++]
+          arg [-Bdynamic] ==> search dynamic
+          arg [-lm] ==> lib [m]
+          arg [C:\\\\Users\\\\Toktarla\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\ndk\\\\23.1.7779620\\\\toolchains\\\\llvm\\\\prebuilt\\\\windows-x86_64\\\\lib64\\\\clang\\\\12.0.8\\\\lib\\\\linux\\\\libclang_rt.builtins-aarch64-android.a] ==> lib [C:\\\\Users\\\\Toktarla\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\ndk\\\\23.1.7779620\\\\toolchains\\\\llvm\\\\prebuilt\\\\windows-x86_64\\\\lib64\\\\clang\\\\12.0.8\\\\lib\\\\linux\\\\libclang_rt.builtins-aarch64-android.a]
+          arg [-l:libunwind.a] ==> lib [-l:libunwind.a]
+          arg [-ldl] ==> lib [dl]
+          arg [-lc] ==> lib [c]
+          arg [C:\\\\Users\\\\Toktarla\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\ndk\\\\23.1.7779620\\\\toolchains\\\\llvm\\\\prebuilt\\\\windows-x86_64\\\\lib64\\\\clang\\\\12.0.8\\\\lib\\\\linux\\\\libclang_rt.builtins-aarch64-android.a] ==> lib [C:\\\\Users\\\\Toktarla\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\ndk\\\\23.1.7779620\\\\toolchains\\\\llvm\\\\prebuilt\\\\windows-x86_64\\\\lib64\\\\clang\\\\12.0.8\\\\lib\\\\linux\\\\libclang_rt.builtins-aarch64-android.a]
+          arg [-l:libunwind.a] ==> lib [-l:libunwind.a]
+          arg [-ldl] ==> lib [dl]
+          arg [C:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/21\\\\crtend_android.o] ==> obj [C:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/21\\\\crtend_android.o]
+        linker tool for 'CXX': C:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/bin/ld
+        remove lib [C:\\\\Users\\\\Toktarla\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\ndk\\\\23.1.7779620\\\\toolchains\\\\llvm\\\\prebuilt\\\\windows-x86_64\\\\lib64\\\\clang\\\\12.0.8\\\\lib\\\\linux\\\\libclang_rt.builtins-aarch64-android.a]
+        remove lib [C:\\\\Users\\\\Toktarla\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\ndk\\\\23.1.7779620\\\\toolchains\\\\llvm\\\\prebuilt\\\\windows-x86_64\\\\lib64\\\\clang\\\\12.0.8\\\\lib\\\\linux\\\\libclang_rt.builtins-aarch64-android.a]
+        collapse obj [C:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/21\\\\crtbegin_dynamic.o] ==> [C:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/21/crtbegin_dynamic.o]
+        collapse obj [C:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/21\\\\crtend_android.o] ==> [C:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/21/crtend_android.o]
+        collapse library dir [C:\\\\Users\\\\Toktarla\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\ndk\\\\23.1.7779620\\\\toolchains\\\\llvm\\\\prebuilt\\\\windows-x86_64\\\\lib64\\\\clang\\\\12.0.8\\\\lib\\\\linux\\\\aarch64] ==> [C:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/12.0.8/lib/linux/aarch64]
+        collapse library dir [C:\\\\Users\\\\Toktarla\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\ndk\\\\23.1.7779620\\\\toolchains\\\\llvm\\\\prebuilt\\\\windows-x86_64\\\\bin/../lib/gcc/aarch64-linux-android/4.9.x] ==> [C:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/aarch64-linux-android/4.9.x]
+        collapse library dir [C:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/21] ==> [C:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/21]
+        collapse library dir [C:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android] ==> [C:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android]
+        collapse library dir [C:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib] ==> [C:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib]
+        implicit libs: [atomic;m;c++;m;-l:libunwind.a;dl;c;-l:libunwind.a;dl]
+        implicit objs: [C:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/21/crtbegin_dynamic.o;C:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/21/crtend_android.o]
+        implicit dirs: [C:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/lib64/clang/12.0.8/lib/linux/aarch64;C:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/lib/gcc/aarch64-linux-android/4.9.x;C:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/21;C:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android;C:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/Toktarla/AppData/Local/Android/Sdk/cmake/3.30.5/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Users/Toktarla/AppData/Local/Android/Sdk/cmake/3.30.5/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "C:/Users/Toktarla/AppData/Local/Android/Sdk/cmake/3.30.5/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Running the CXX compiler's linker: "C:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/bin/ld" "-v"
+      LLD 12.0.8 (/buildbot/src/android/llvm-r416183/out/llvm-project/lld c935d99d7cf2016289302412d708641d52d2f7ee) (compatible with GNU linkers)
+...

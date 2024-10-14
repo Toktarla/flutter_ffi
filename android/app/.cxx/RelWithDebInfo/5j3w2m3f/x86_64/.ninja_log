@@ -1,0 +1,5 @@
+# ninja log v5
+0	1801	7506298369884791	CMakeFiles/image_processing.dir/image_processing.cpp.o	40fd9cf5cade204d
+1805	2292	7506298374124793	C:/Users/Toktarla/StudioProjects/native_with_flutter/build/app/intermediates/cxx/RelWithDebInfo/5j3w2m3f/obj/x86_64/libimage_processing.so	2db155e1f0e4cfe
+4	1626	7506302388855515	CMakeFiles/image_processing.dir/image_processing.cpp.o	40fd9cf5cade204d
+1627	2781	7506302399416607	C:/Users/Toktarla/StudioProjects/native_with_flutter/build/app/intermediates/cxx/RelWithDebInfo/5j3w2m3f/obj/x86_64/libimage_processing.so	2db155e1f0e4cfe

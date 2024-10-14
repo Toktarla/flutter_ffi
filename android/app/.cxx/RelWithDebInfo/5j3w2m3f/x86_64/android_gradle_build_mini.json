@@ -1,0 +1,27 @@
+{
+  "buildFiles": [
+    "C:\\Users\\Toktarla\\StudioProjects\\native_with_flutter\\android\\app\\src\\main\\cpp\\CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "C:\\Users\\Toktarla\\AppData\\Local\\Android\\sdk\\cmake\\3.30.5\\bin\\ninja.exe",
+      "-C",
+      "C:\\Users\\Toktarla\\StudioProjects\\native_with_flutter\\android\\app\\.cxx\\RelWithDebInfo\\5j3w2m3f\\x86_64",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "C:\\Users\\Toktarla\\AppData\\Local\\Android\\sdk\\cmake\\3.30.5\\bin\\ninja.exe",
+    "-C",
+    "C:\\Users\\Toktarla\\StudioProjects\\native_with_flutter\\android\\app\\.cxx\\RelWithDebInfo\\5j3w2m3f\\x86_64",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "image_processing::@6890427a1f51a3e7e1df": {
+      "artifactName": "image_processing",
+      "abi": "x86_64",
+      "output": "C:\\Users\\Toktarla\\StudioProjects\\native_with_flutter\\build\\app\\intermediates\\cxx\\RelWithDebInfo\\5j3w2m3f\\obj\\x86_64\\libimage_processing.so",
+      "runtimeFiles": []
+    }
+  }
+}

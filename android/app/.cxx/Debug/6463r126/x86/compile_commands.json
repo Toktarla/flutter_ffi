@@ -1,0 +1,8 @@
+[
+{
+  "directory": "C:/Users/Toktarla/StudioProjects/native_with_flutter/android/app/.cxx/Debug/6463r126/x86",
+  "command": "C:\\Users\\Toktarla\\AppData\\Local\\Android\\Sdk\\ndk\\23.1.7779620\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=i686-none-linux-android21 --sysroot=C:/Users/Toktarla/AppData/Local/Android/Sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dimage_processing_EXPORTS -isystem C:/OpenCV-android-sdk/sdk/native/jni/include -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -fexceptions -frtti -stdlib=libc++ -g  -fno-limit-debug-info -fPIC -o CMakeFiles\\image_processing.dir\\image_processing.cpp.o -c C:\\Users\\Toktarla\\StudioProjects\\native_with_flutter\\android\\app\\src\\main\\cpp\\image_processing.cpp",
+  "file": "C:\\Users\\Toktarla\\StudioProjects\\native_with_flutter\\android\\app\\src\\main\\cpp\\image_processing.cpp",
+  "output": "CMakeFiles\\image_processing.dir\\image_processing.cpp.o"
+}
+]
